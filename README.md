@@ -1,5 +1,5 @@
 <h1 align="center"> Projects Portfólio <br /> <br />
-  <img src="https://github.com/ThiagoOrlandini/projects/blob/main/projects.png" width="30%" height="30%">
+  <img src="projects.png" width="30%" height="30%">
 </h1>
 
 # Projects
