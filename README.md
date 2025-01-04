@@ -1,6 +1,6 @@
-<h1 align="center"> Projects Portfólio </h1>
-
-![Computador e Café](https://github.com/ThiagoOrlandini/projects/blob/main/projects.png)
+<h1 align="center"> Projects Portfólio <br /> <br />
+  <img src="https://github.com/ThiagoOrlandini/projects/blob/main/projects.png" width="30%" height="30%">
+</h1>
 
 # Projects
 
