@@ -37,21 +37,21 @@ function newMove(e){
         check();
     }, [100]);
 
-    player = player ==="X" ? "O" : "X";
+    player = player === "X" ? "O" : "X";
     currentPlayer.innerHTML = 'JOGADOR DA VEZ: ${player}';
 }
 
 function check() {
-    let palyerLastMove = player === "X" ? "O" : "X";
+    let playerLastMove = player === "X" ? "O" : "X";
 
     const items = selected
     .map((item, i) => [item, i])
-    .filter((item) => item[0] === palyerLastMove)
+    .filter((item) => item[0] === playerLastMove)
     .map((item) => item[1]);
 
     for (pos of positions) {
         if (pos.every((item) => items.includes(item))) {
-            alert("O JOGADOR '" + palyerLastMove + "' GANHOU!");
+            alert("O JOGADOR '" + playerLastMove + "' GANHOU!");
             init();
             return;
         }
