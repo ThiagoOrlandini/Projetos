@@ -11,13 +11,13 @@ let positions = [
     [2, 5, 8],
     [3, 6, 9],
     [1, 5, 9],
-    [3, 5, 9],
+    [3, 5, 7],
 ];
 
 function init(){
     selected = [];
 
-    currentPlayer.innerHTML = 'JOGADOR DA VEZ: ${player}';
+    currentPlayer.innerHTML = `JOGADOR DA VEZ: ${player}`;
 
     document.querySelectorAll(".game button").forEach((item) => {
         item.innerHTML = "";
@@ -38,7 +38,7 @@ function newMove(e){
     }, [100]);
 
     player = player === "X" ? "O" : "X";
-    currentPlayer.innerHTML = 'JOGADOR DA VEZ: ${player}';
+    currentPlayer.innerHTML = `JOGADOR DA VEZ: ${player}`;
 }
 
 function check() {
