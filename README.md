@@ -1,4 +1,4 @@
-<h1 align="center"> 80 PROJETOS <br /> <br />
+<h1 align="center"> PROJETOS <br /> <br />
   <img src="projects.png" width="30%" height="30%">
 </h1>
 
