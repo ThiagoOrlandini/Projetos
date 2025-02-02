@@ -7,4 +7,5 @@
 ### Games 🕹️
   - WEB
       * [TIC TAC TOE](https://github.com/ThiagoOrlandini/Projetos/games/tic%20tac%20toe/web/index.html)
+      * [VIRTUAL PET](https://github.com/ThiagoOrlandini/Projetos/games/virtual%20pet/web/index.html)
   
